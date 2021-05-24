@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener" />
+
+        <variable
+            name="carouselItem"
+            type="com.example.epoxylearning.ui.AttractionModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/white"
+        android:focusable="true"
+        android:onClick="@{clickListener}"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="8dp"
+                tools:text="Event problem"
+                android:text="@{carouselItem.name}"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_height="wrap_content" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+</layout>
