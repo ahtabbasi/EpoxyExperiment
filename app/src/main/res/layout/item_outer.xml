@@ -7,7 +7,7 @@
 
         <variable
             name="innerList"
-            type="com.example.epoxylearning.ui.epoxyutils.InnerWrapper" />
+            type="com.example.epoxylearning.data.InnerWrapper" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

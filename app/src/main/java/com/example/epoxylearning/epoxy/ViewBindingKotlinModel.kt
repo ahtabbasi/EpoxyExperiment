@@ -1,4 +1,4 @@
-package com.example.epoxylearning.utils
+package com.example.epoxylearning.epoxy
 
 import android.view.View
 import androidx.annotation.LayoutRes

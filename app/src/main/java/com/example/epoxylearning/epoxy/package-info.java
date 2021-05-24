@@ -1,4 +1,4 @@
-package com.example.epoxylearning.ui.epoxyutils;
+package com.example.epoxylearning.epoxy;
 
 import com.airbnb.epoxy.EpoxyDataBindingPattern;
 import com.example.epoxylearning.R;
